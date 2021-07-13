@@ -16,3 +16,9 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git package/luci-app-zerotier https://github.com/rufengsuixing/luci-app-zerotier.git' >>feeds.conf.default
+echo 'src-git package/v2ray-core https://github.com/kuoruan/openwrt-v2ray.git' >>feeds.conf.default
+echo 'src-git package/luci-app-v2ray -b luci2 https://github.com/kuoruan/luci-app-v2ray.git' >>feeds.conf.default
+echo 'src-git package/openwrt-upx -b master --depth 1 https://github.com/kuoruan/openwrt-upx.git' >>feeds.conf.default
+echo 'src-git package/openwrt-packages https://github.com/kenzok8/openwrt-packages.git' >>feeds.conf.default
+echo 'src-git package/small https://github.com/kenzok8/small.git' >>feeds.conf.default
