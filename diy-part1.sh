@@ -29,5 +29,6 @@ cd /workdir/openwrt/
 mkdir staging_dir
 mkdir host
 mkdir bin
+cd /
 cp /usr/bin/upx /workdir/openwrt/staging_dir/host/bin
 cp /usr/bin/upx-ucl /workdir/openwrt/staging_dir/host/bin
