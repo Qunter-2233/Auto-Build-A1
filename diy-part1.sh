@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 #
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
@@ -25,5 +25,5 @@ git clone https://github.com/kenzok8/small.git package/small
 #wget https://github.com/upx/upx/releases/download/v3.95/upx-3.95-amd64_linux.tar.xz
 #tar -Jxf upx*.tar.xz
 #cp upx*/upx /usr/bin
-cp /usr/bin/upx /workdir/openwrt/staging_dir/host/bin
-cp /usr/bin/upx-ucl /workdir/openwrt/staging_dir/host/bin
+#cp /usr/bin/upx /workdir/openwrt/staging_dir/host/bin
+#cp /usr/bin/upx-ucl /workdir/openwrt/staging_dir/host/bin
